@@ -1,0 +1,853 @@
+{
+  "provider": "deepseek",
+  "rows": [
+    {
+      "id": "example-01",
+      "type": "clear",
+      "text": "我会剪辑和拍照，喜欢旅行和本地文化，想做短视频",
+      "expected": [
+        "Local Culture Short Videos",
+        "Cinematic Travel Vlogging"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Local Culture Short Videos",
+        "Cinematic Travel Vlogging",
+        "Budget Weekend Travel Guides"
+      ],
+      "agent_final": [
+        "Local Culture Short Videos",
+        "Cinematic Travel Vlogging"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details",
+        "get_details",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 6.64,
+      "input_tokens": 5601,
+      "output_tokens": 496,
+      "answer": "你好！根据你会剪辑、会拍照，又喜欢旅行和本地文化，我找到两个很合适的方向：\n\n**1. 本地文化短视频** — 用30–60秒讲一个地方的小故事（比如隐藏小吃店、菜市场背后的故事），正好用上你的拍摄和剪辑，手机就能做。\n\n**2. 电影感旅行Vlog** — 更偏画面质感和叙事，适合你想把旅行拍得好看、有氛围的时候。\n\n合作方面，有两位机会挺对路（都来自同一位旅行创作者）：\n- **格拉斯哥旅行短片的剪辑合作** — 对方需要有人把手机素材剪成节奏明快、带字幕的短片，正是你的强项。\n- **爱丁堡周末指南的摄影合作** — 需要喜欢记录本地地点、能讲视觉故事的人，和你的拍照兴趣很搭。\n\n你想先深入哪个方向，还是先给其中一个合作写一份申请？"
+    },
+    {
+      "id": "example-02",
+      "type": "synonym",
+      "text": "平时爱折腾数码产品，买东西前喜欢做功课对比，想做点开箱测评",
+      "expected": [
+        "Affordable Gadget Reviews"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Affordable Gadget Reviews",
+        "Affordable Skincare Reviews",
+        "Budget Weekend Travel Guides"
+      ],
+      "agent_final": [
+        "Affordable Gadget Reviews"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 5.52,
+      "input_tokens": 5146,
+      "output_tokens": 384,
+      "answer": "挺适合你的！给你两个方向：\n\n**1. 平价数码测评（Affordable Gadget Reviews）**\n正好对上你爱做功课、爱对比的习惯——用简洁的实拍演示和优缺点对比，帮学生和入门创作者挑到合适的东西，YouTube、TikTok、Reels 都能发。\n\n**2. 一个现成的合作机会：平价数码测评的研究搭档（alex_tech）**\n对方正在对比平价麦克风、三脚架和剪辑工具，缺一个在录制前做参数、价格和真实需求对比的人——这几乎就是你说的\"买东西前做功课\"。\n\n要不要我帮你给这个合作写一份申请草稿？"
+    },
+    {
+      "id": "example-03",
+      "type": "constraint",
+      "text": "我是留学生，想分享学习方法帮助新生，但不想露脸，每周只有几个小时",
+      "expected": [
+        "Study Skills for International Students"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Student Productivity Content",
+        "Study Skills for International Students",
+        "Cinematic Travel Vlogging"
+      ],
+      "agent_final": [
+        "Study Skills for International Students",
+        "Student Productivity Content"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details",
+        "get_details",
+        "get_details",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 5.46,
+      "input_tokens": 5859,
+      "output_tokens": 581,
+      "answer": "你好！根据你的情况（不露脸、每周时间有限、想帮新生），我觉得这两个方向最合适：\n\n**1. 留学生学习方法（Study Skills for International Students）**\n这个方向就是给国际学生讲实用的学习和大学适应技巧，很适合用手机加录屏、配音讲解的方式做，完全不用露脸，短视频和长视频都能起步。\n\n**2. 学生效率与日常（Student Productivity Content）**\n偏真实的学习节奏和整理方法，用字幕加实用小技巧的短视频形式，每周几小时也能稳定更新。\n\n合作方面，有两个可以看看：\n\n- **lina_learns 在找教育类视频封面设计**：她做的是入门学习系列，和你的内容主题很接近，如果你会一点设计，可以顺手合作。\n- **maya_travels 在找短视频剪辑**：需要把手机素材剪成带字幕的短片，如果你喜欢剪辑，这是练手又能积累作品的机会（不过主题是旅行，不是学习）。\n\n你想先从哪个方向开始？或者要我帮你给其中一个合作写一份申请草稿？"
+    },
+    {
+      "id": "example-04",
+      "type": "constraint",
+      "text": "我学设计的，会画插画，想记录作品从草图到完成的过程，不想出镜",
+      "expected": [
+        "Behind-the-Scenes Design Content"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Behind-the-Scenes Design Content",
+        "Cinematic Travel Vlogging",
+        "Everyday Educational Explainers"
+      ],
+      "agent_final": [
+        "Behind-the-Scenes Design Content",
+        "Everyday Educational Explainers"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 5.16,
+      "input_tokens": 5320,
+      "output_tokens": 424,
+      "answer": "听起来很适合你！给你两个方向：\n\n**1. 幕后设计过程内容** — 正好是\"从草图到成品\"的记录，用延时摄影或录屏展示插画和设计过程，完全不用出镜，适合发在 Reels、TikTok、Shorts 上。\n\n**2. 日常知识讲解类内容** — 可以用你的插画能力做视觉化的讲解，同样不需要露脸，适合慢慢积累观众。\n\n合作方面，有一个比较合适：\n\n**教育类视频的缩略图设计** — 一位做入门学习系列的创作者在找平面设计师做统一、手机上也能看清的缩略图，正好用得上你的设计功底，而且不用出镜。\n\n要不要我帮你给这个缩略图合作写一份申请草稿？"
+    },
+    {
+      "id": "example-05",
+      "type": "vague",
+      "text": "我想当博主，做什么好？",
+      "expected": [],
+      "tfidf_raw": [],
+      "llm_keywords": [],
+      "agent_final": [],
+      "asked_question": true,
+      "tools_called": [],
+      "fallback": "",
+      "latency_s": 1.56,
+      "input_tokens": 1094,
+      "output_tokens": 64,
+      "answer": "你好！很高兴帮你找方向。先问你一个关键问题：\n\n你平时最喜欢拍/聊什么内容，或者你手头有什么技能（比如剪辑、讲故事、出镜口播）？另外，你更想拍短视频还是长视频？\n\n告诉我这些，我就能帮你匹配适合的方向和合作机会。"
+    },
+    {
+      "id": "c06",
+      "type": "clear",
+      "text": "我喜欢研究各种新出的手机和耳机，想做测评视频，偶尔可以出镜",
+      "expected": [
+        "Affordable Gadget Reviews"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Affordable Gadget Reviews",
+        "Affordable Skincare Reviews",
+        "Budget Weekend Travel Guides"
+      ],
+      "agent_final": [
+        "Affordable Gadget Reviews"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 5.1,
+      "input_tokens": 5245,
+      "output_tokens": 411,
+      "answer": "你这两个方向挺搭的，我挑了两个最合适的：\n\n**创作方向：平价数码测评**\n做面向学生和入门创作者的诚实测评，用手机或电脑拍就行，偶尔出镜完全够用，短测评和对比类内容都很适合你。\n\n**合作机会：平价数码测评的研究搭档（alex_tech）**\n对方正在对比平价麦克风、三脚架和剪辑工具，需要有人一起查参数、比价格、梳理真实需求，正好和你的测评兴趣对得上。\n\n另外还有一个旅行短视频剪辑的合作，但跟数码测评关系不大，就先不推荐了。\n\n要不要我帮你给 alex_tech 起草一份合作申请？"
+    },
+    {
+      "id": "c07",
+      "type": "clear",
+      "text": "我是剪辑师，想做教程教新手怎么剪视频，录屏讲解就行",
+      "expected": [
+        "Beginner Video Editing Tutorials"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Beginner Video Editing Tutorials",
+        "Behind-the-Scenes Design Content",
+        "Cinematic Travel Vlogging"
+      ],
+      "agent_final": [
+        "Beginner Video Editing Tutorials",
+        "Behind-the-Scenes Design Content"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 6.06,
+      "input_tokens": 5456,
+      "output_tokens": 453,
+      "answer": "给你两个方向，都很贴合你的情况：\n\n**1. 新手剪辑教程（录屏讲解）**\n这个方向就是为“用录屏、不露脸、讲给新手听”的剪辑师准备的，主打一步步演示加前后对比，正好用上你的剪辑和讲解能力。\n\n**2. 幕后设计/制作过程类内容**\n如果你愿意把剪辑过程本身当成内容来展示，这类“幕后怎么做出来的”形式也能复用你的录屏素材，只是教学属性弱一些。\n\n合作方面，有一个比较合适：\n**lina_learns 的“教育类视频封面设计”需求** —— 她在做面向新手的教学系列，需要有人做封面，和你的教程定位是同一批观众，可以互相导流。\n\n要不要我先帮你给 lina_learns 起草一封合作申请？"
+    },
+    {
+      "id": "c08",
+      "type": "clear",
+      "text": "喜欢护肤，想做平价护肤品测评，可以出镜",
+      "expected": [
+        "Affordable Skincare Reviews"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Affordable Skincare Reviews",
+        "Affordable Gadget Reviews",
+        "Budget Weekend Travel Guides"
+      ],
+      "agent_final": [
+        "Affordable Skincare Reviews"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "search_collaborations",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 5.34,
+      "input_tokens": 4935,
+      "output_tokens": 418,
+      "answer": "你好！我帮你看了平台上的方向，最贴合你的是这个：\n\n**平价护肤品测评** — 平台上有专门针对「平价护肤 + 真实测评 + 出镜演示」的方向，主打成分讲清楚、性价比对比和真实使用记录，很适合你这种愿意出镜、想做诚实测评的创作者。\n\n合作方面，目前开放的招募里没有护肤/美妆类的伙伴，只有旅行剪辑、学习类配音和缩略图设计这类，跟你的方向不太搭，我就不硬推了。\n\n想先按这个方向定下来吗？如果愿意，也可以告诉我你打算主攻哪个平台（比如抖音/小红书/YouTube Shorts），我再帮你细化。"
+    },
+    {
+      "id": "c09",
+      "type": "clear",
+      "text": "我会采访，也会剪音频，想每周找一个创作者聊聊他们的职业经历",
+      "expected": [
+        "Creative Community Interview Podcast"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Creative Community Interview Podcast",
+        "Cinematic Travel Vlogging",
+        "Local Culture Short Videos"
+      ],
+      "agent_final": [
+        "Creative Community Interview Podcast"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 5.95,
+      "input_tokens": 5048,
+      "output_tokens": 423,
+      "answer": "你的方向其实很清晰，我找到两个比较合适的：\n\n**创作方向：Creative Community Interview Podcast**\n就是和本地创作者聊他们的技能、职业和创作中的难题——正好用上你的采访和音频剪辑能力，而且适合每周一期的长对话形式，再剪出短片段做推广。\n\n**合作机会：alex_tech 的「平价设备测评研究伙伴」**\n他在对比学生创作者用的麦克风、三脚架和剪辑工具，想找个人一起做调研再录测评——你的采访和音频经验对这类内容很对口，也能顺便解决你自己录音设备的问题。\n\n要不要我帮你给 alex_tech 起草一封申请消息？"
+    },
+    {
+      "id": "c10",
+      "type": "clear",
+      "text": "想做小红书运营干货，给小店主讲怎么涨粉，我会看后台数据",
+      "expected": [
+        "Social Media Marketing Tips"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Social Media Marketing Tips",
+        "Budget Weekend Travel Guides",
+        "Student Productivity Content"
+      ],
+      "agent_final": [
+        "Social Media Marketing Tips"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 5.4,
+      "input_tokens": 5203,
+      "output_tokens": 419,
+      "answer": "你的方向挺清晰的，我找到两个比较合适的：\n\n**内容方向**\n- **社媒营销实操分享**：正好对上你“用后台数据讲涨粉方法”的定位，适合做数据截图、小案例复盘这类干货，也容易建立专业感、吸引店主来咨询。\n\n**合作机会**\n- **教育类视频封面设计（lina_learns）**：对方在找做入门系列封面的设计师，你的运营视角能帮上忙，也能顺便积累一个教育类内容的人脉。\n\n其他搜到的多是旅行、摄影类合作，跟你不太搭，就先不推了。\n\n要不要我先帮你把 lina_learns 那个合作的申请草稿写出来看看？"
+    },
+    {
+      "id": "c11",
+      "type": "clear",
+      "text": "我想用动画讲历史和科学冷知识，自己配音",
+      "expected": [
+        "Everyday Educational Explainers"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Local Culture Short Videos",
+        "Everyday Educational Explainers",
+        "Budget Weekend Travel Guides"
+      ],
+      "agent_final": [
+        "Everyday Educational Explainers",
+        "Local Culture Short Videos"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details",
+        "search_collaborations",
+        "get_details",
+        "search_collaborations",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 9.3,
+      "input_tokens": 9994,
+      "output_tokens": 658,
+      "answer": "你好！根据你说的动画＋历史科学冷知识＋自己配音，我找到两个比较合适的方向：\n\n**1. 日常科普解说（Everyday Educational Explainers）**\n用图解、例子和配音把复杂的事讲清楚，正好适合你这种不露脸、靠动画和旁白讲故事的方式，也适合短视频平台。\n\n**2. 本地文化短视频（Local Culture Short Videos）**\n如果你愿意把历史冷知识落到具体的地方和故事上，这个方向能让你把讲故事的能力用起来，同时兼顾涨粉。\n\n合作方面，目前开放的机会里有两个还算相关：\n\n- **教育类视频封面设计**（lina_learns）：她在做入门学习系列，需要能适配手机、文字不堆砌的封面设计——你的动画视觉感应该能帮上忙。\n- **平价设备测评的研究搭档**（alex_tech）：需要会做资料对比和讲故事的人，如果你对麦克风、剪辑工具这类内容也有兴趣，可以聊聊。\n\n不过说实话，暂时没找到专门招\"动画历史/科学解说\"的合作，这两个算是沾边的。\n\n你想先深入看哪个方向，还是让我帮你给其中一个合作写一份申请草稿？"
+    },
+    {
+      "id": "c12",
+      "type": "synonym",
+      "text": "周末总是穷游周边小城，想把怎么花最少的钱玩得开心分享出来",
+      "expected": [
+        "Budget Weekend Travel Guides"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Local Culture Short Videos",
+        "Budget Weekend Travel Guides",
+        "Cinematic Travel Vlogging"
+      ],
+      "agent_final": [
+        "Budget Weekend Travel Guides",
+        "Local Culture Short Videos"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details",
+        "get_details",
+        "get_details",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 6.49,
+      "input_tokens": 8404,
+      "output_tokens": 586,
+      "answer": "你的方向挺清晰的，我找到两个很贴合的：\n\n**内容方向**\n1. **预算周末旅行指南** — 正好就是你在做的事：把价格、路线和实用建议讲清楚，帮别人用最少的钱玩得开心，周末短途和手机拍摄都能直接套用。\n2. **本地文化短视频** — 如果你想把小城的市集、小吃、老街背后的故事讲出来，30–60 秒的短片形式很适合周末顺手拍。\n\n**合作机会**\n1. **Glasgow 平价旅行短片剪辑** — 对方在做一个\"便宜好玩的地方\"系列，需要会剪辑和讲故事的人，把你的省钱视角和剪辑能力都用得上。\n2. **Edinburgh 周末指南摄影搭档** — 面向学生的实用周末攻略，需要喜欢记录本地地方、能讲视觉故事的人，和你的小城穷游内容很对味。\n\n想先看哪个？我可以帮你把申请草稿写出来，或者再细聊某个方向。"
+    },
+    {
+      "id": "c13",
+      "type": "synonym",
+      "text": "我拍东西很讲究氛围感，调色运镜都会，想拍一些有电影感的旅拍",
+      "expected": [
+        "Cinematic Travel Vlogging"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Cinematic Travel Vlogging",
+        "Local Culture Short Videos",
+        "Budget Weekend Travel Guides"
+      ],
+      "agent_final": [
+        "Cinematic Travel Vlogging",
+        "Local Culture Short Videos"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations"
+      ],
+      "fallback": "",
+      "latency_s": 3.45,
+      "input_tokens": 2887,
+      "output_tokens": 317,
+      "answer": "给你两个方向：\n\n**1. 电影感旅拍 Vlog** — 最贴合你，正好用上你的调色和运镜功底，把氛围感做成个人标签。\n\n**2. 本地文化短片** — 如果你想让画面更有故事和人文味道，这个方向能把你的镜头语言用在具体的人和地方上。\n\n合作方面，有一个比较合适：\n\n**格拉斯哥旅拍短视频的剪辑合作**（发布者 maya_travels）— 对方在找会剪辑、会讲故事的人，你的调色和运镜正好能帮片子提升质感。\n\n要不要我帮你给这个合作写一份申请草稿？或者你想先看看某个方向的更多细节？"
+    },
+    {
+      "id": "c14",
+      "type": "synonym",
+      "text": "每天早起打卡、做手账、规划时间，想分享我的自律日常",
+      "expected": [
+        "Student Productivity Content"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Budget Weekend Travel Guides",
+        "Cinematic Travel Vlogging",
+        "Local Culture Short Videos"
+      ],
+      "agent_final": [
+        "Budget Weekend Travel Guides",
+        "Cinematic Travel Vlogging"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations"
+      ],
+      "fallback": "",
+      "latency_s": 4.7,
+      "input_tokens": 2863,
+      "output_tokens": 333,
+      "answer": "我查了一下，目前平台上的方向和合作机会大多集中在旅行类内容，和你做的自律日常、手账规划不太对得上，硬推给你反而没意义。\n\n有两个方向勉强沾边，但说实话匹配度不高：\n- **预算周末旅行指南**：只在你“擅长规划”这一点上有交集，主题还是旅行。\n- **电影感旅行 Vlog**：只在你“会讲故事”上沾边。\n\n合作方面，有一个“格拉斯哥旅行短视频剪辑”的招募，需要剪辑和叙事能力，但内容主题是旅行，不是自律日常。\n\n所以我想先确认一下：你是更想坚持做自律/手账这个方向（那我建议等平台上有更对口的合作再出手），还是愿意把手账规划能力用到旅行、学习类内容上，去接这些现成的机会？"
+    },
+    {
+      "id": "c15",
+      "type": "synonym",
+      "text": "我在学院当助教，挺会给别人讲题的，想帮刚出国的学弟学妹适应国外的课程",
+      "expected": [
+        "Study Skills for International Students"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Study Skills for International Students",
+        "Student Productivity Content",
+        "Beginner Video Editing Tutorials"
+      ],
+      "agent_final": [
+        "Study Skills for International Students",
+        "Student Productivity Content"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 5.92,
+      "input_tokens": 5230,
+      "output_tokens": 488,
+      "answer": "听起来你特别适合做“留学生学习方法”这类内容——你本来就在讲题，只是把讲台搬到线上。\n\n**两个方向**\n1. **给国际学生的学习方法内容**：用你当助教的经验，讲怎么规划第一篇作业、怎么听懂课、怎么复习，形式可以是轻松的讲解加屏幕录制，手机加电脑就能做。\n2. **学生效率/学习生活内容**：更偏日常一点，比如你的每周学习计划、时间管理小技巧，门槛低、容易持续更新。\n\n**两个可以合作的伙伴**\n1. **lina_learns 的“学习方法视频配音/脚本”**：她正在做面向留学生的短视频，需要有人打磨脚本并配亲切清晰的旁白——正好是你讲题时那种“讲明白”的能力。\n2. 另一个是她的**教育视频封面设计**需求，不过那个偏平面设计，跟你的强项关系不大，我就不重点推荐了。\n\n要不要我先帮你给 lina_learns 那条配音合作写一份申请草稿？"
+    },
+    {
+      "id": "c16",
+      "type": "synonym",
+      "text": "我老家有很多老手艺和地道小吃，想拍下来让更多人知道",
+      "expected": [
+        "Local Culture Short Videos"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [],
+      "agent_final": [],
+      "asked_question": true,
+      "tools_called": [],
+      "fallback": "",
+      "latency_s": 1.4,
+      "input_tokens": 1102,
+      "output_tokens": 29,
+      "answer": "我可以帮你找找合适的方向和合作机会。先问一句：你平时更习惯拍短视频，还是做长一点的纪录式内容？"
+    },
+    {
+      "id": "c17",
+      "type": "synonym",
+      "text": "平时就是做海报和 UI 的，想让大家看看一个作品是怎么一步步做出来的",
+      "expected": [
+        "Behind-the-Scenes Design Content"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Behind-the-Scenes Design Content",
+        "Budget Weekend Travel Guides",
+        "Affordable Gadget Reviews"
+      ],
+      "agent_final": [
+        "Behind-the-Scenes Design Content"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 4.88,
+      "input_tokens": 4821,
+      "output_tokens": 359,
+      "answer": "找到两个挺适合你的：\n\n**方向：设计过程幕后内容**\n把你从草稿到成品的海报或 UI 过程录下来，配上简短讲解，正好是\"一步步做出来\"这件事本身，也能顺便积累作品集。\n\n**合作：教育类视频封面设计**\n一位做入门学习系列的内容作者在找平面设计师做统一、手机上也能看清的封面，你的海报和 UI 底子很对口。\n\n要不要我帮你给这个封面合作写一份申请草稿？"
+    },
+    {
+      "id": "c18",
+      "type": "synonym",
+      "text": "喜欢跟人聊天，想做一档对谈节目，请身边做手艺、做音乐的朋友来聊",
+      "expected": [
+        "Creative Community Interview Podcast"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Local Culture Short Videos",
+        "Cinematic Travel Vlogging",
+        "Everyday Educational Explainers"
+      ],
+      "agent_final": [
+        "Local Culture Short Videos",
+        "Cinematic Travel Vlogging",
+        "Everyday Educational Explainers"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations"
+      ],
+      "fallback": "",
+      "latency_s": 4.01,
+      "input_tokens": 2822,
+      "output_tokens": 272,
+      "answer": "我查了一下，说实话匹配度都不太高——平台上的方向偏旅行和科普，合作需求也多是剪辑、测评类，跟你想做的人物对谈节目不太对得上。\n\n勉强能沾点边的只有「本地文化短视频」这个方向，它看重讲故事的能力，也涉及本地的人和事，可以当作对谈节目的一个参考框架。合作那边我没有找到真正合适的，就不硬推了。\n\n想帮你找得更准一点：你这档对谈节目打算做成纯音频播客，还是带画面的视频？"
+    },
+    {
+      "id": "c19",
+      "type": "constraint",
+      "text": "想做旅行内容，但不想露脸，只有一部手机，每周最多三四个小时",
+      "expected": [
+        "Local Culture Short Videos"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Local Culture Short Videos",
+        "Cinematic Travel Vlogging",
+        "Budget Weekend Travel Guides"
+      ],
+      "agent_final": [
+        "Local Culture Short Videos",
+        "Budget Weekend Travel Guides"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 5.47,
+      "input_tokens": 5579,
+      "output_tokens": 452,
+      "answer": "给你两个方向，都很适合不露脸、只用手机、时间有限的你：\n\n**1. 本地文化短视频**\n用 30–60 秒的画面讲本地美食、市场或街区故事，配旁白和字幕，不用出镜，一部手机就能拍，正好适合每周三四个小时的节奏。\n\n**2. 周末省钱旅行指南**\n围绕周末短途、低预算路线做实用攻略，剪辑为主、拍摄量小，容易稳定更新。\n\n合作方面，有一个挺合适的：\n\n**格拉斯哥旅行短视频的剪辑合作**\n对方在做一个平价旅行地系列，需要有人把手机素材剪成节奏明快、带字幕的短片——正好用上你的剪辑能力，而且不用露脸。\n\n要不要我先帮你起草一份给这个剪辑合作的申请？"
+    },
+    {
+      "id": "c20",
+      "type": "constraint",
+      "text": "我会剪辑，但完全不想出镜，也不想出门拍，只想在电脑前做",
+      "expected": [
+        "Beginner Video Editing Tutorials"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Beginner Video Editing Tutorials",
+        "Cinematic Travel Vlogging",
+        "Local Culture Short Videos"
+      ],
+      "agent_final": [
+        "Beginner Video Editing Tutorials"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 5.41,
+      "input_tokens": 5359,
+      "output_tokens": 401,
+      "answer": "完全理解，坐在电脑前剪片也能做出自己的内容。给你两个方向：\n\n**1. 剪辑教学（新手向）**\n用屏幕录制加旁白，教别人实用的剪辑技巧，比如怎么加字幕、怎么让节奏更快。不用出镜、不用出门，正好把你现有的剪辑能力变成内容。\n\n**2. 给别人的素材做后期**\n比如有位旅行创作者在找剪辑师，把手机拍的格拉斯哥短片剪成节奏明快、带字幕、风格统一的成片——你只负责剪，拍摄和出镜都由对方来。\n\n要不要我帮你给那个旅行短片项目写一份申请草稿看看？"
+    },
+    {
+      "id": "c21",
+      "type": "constraint",
+      "text": "学生党没什么钱，想做美妆护肤内容，可以只拍手不露脸",
+      "expected": [
+        "Affordable Skincare Reviews"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Affordable Skincare Reviews",
+        "Budget Weekend Travel Guides",
+        "Cinematic Travel Vlogging"
+      ],
+      "agent_final": [
+        "Affordable Skincare Reviews"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 4.9,
+      "input_tokens": 5236,
+      "output_tokens": 343,
+      "answer": "你好！根据你说的（学生党、预算有限、只拍手不露脸、做美妆护肤），我找到一个很贴合的方向：\n\n**平价护肤测评** — 这个方向就是为“手机拍摄、小预算、只拍手、短视频”设计的，主打真实使用感受和性价比对比，很适合学生党建立信任感。\n\n合作方面，目前平台上的公开招募里没有真正对口的美妆护肤伙伴，硬凑给你反而浪费时间，所以这次先不推荐了。\n\n要不要我帮你把这个方向细化成前 3 条视频的具体选题？"
+    },
+    {
+      "id": "c22",
+      "type": "constraint",
+      "text": "我口才不错，但不想露脸，想给开网店的朋友分享怎么引流",
+      "expected": [
+        "Social Media Marketing Tips"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Social Media Marketing Tips",
+        "Budget Weekend Travel Guides",
+        "Beginner Video Editing Tutorials"
+      ],
+      "agent_final": [
+        "Social Media Marketing Tips",
+        "Beginner Video Editing Tutorials"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations"
+      ],
+      "fallback": "",
+      "latency_s": 4.63,
+      "input_tokens": 2927,
+      "output_tokens": 375,
+      "answer": "你好！先说个实话：平台里跟“网店引流 + 不露脸口播”完全对得上的方向不多，我筛了一下，只有两个还算靠谱：\n\n**方向推荐**\n1. **社交媒体营销技巧**——你口才好、想讲引流，这个方向正好是讲社媒营销的，而且不要求出镜，适合你用声音讲干货。\n2. **新手视频剪辑教程**——偏教学类，可以纯配音讲解，跟你“不露脸但会讲”的特点比较搭，也能顺带服务你那些开网店的朋友。\n\n**合作机会**\n- 目前搜到的两个（旅行短视频剪辑、教育视频封面设计）都跟你的方向差得比较远，我不建议硬凑，先不推荐了。\n\n想先确认一下：你更想走“讲营销干货”这条路，还是“教学类配音”这条路？确定后我可以帮你把方向细化，或者再帮你找找有没有更贴合的合作伙伴。"
+    },
+    {
+      "id": "c23",
+      "type": "constraint",
+      "text": "预算很少，只能周末出门，想做适合学生的出行内容",
+      "expected": [
+        "Budget Weekend Travel Guides"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Local Culture Short Videos",
+        "Cinematic Travel Vlogging",
+        "Budget Weekend Travel Guides"
+      ],
+      "agent_final": [
+        "Budget Weekend Travel Guides",
+        "Local Culture Short Videos"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details",
+        "get_details",
+        "get_details",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 7.49,
+      "input_tokens": 8424,
+      "output_tokens": 614,
+      "answer": "给你两个方向，都很适合“预算少、只有周末、面向学生”的情况：\n\n**1. 预算周末出行指南**\n做实用型内容：两天一夜的花费清单、免费景点、手机拍摄的行程记录。正好对上你的预算和周末限制，学生观众也最吃这种“能直接照着走”的内容。\n\n**2. 本地文化短视频**\n30–60 秒讲一个地方的小故事，比如城市里的隐藏小吃、一个市集背后的故事。用手机加字幕就能做，不需要大投入，也容易积累个人风格。\n\n合作方面有两个机会：\n\n- **Glasgow 平价旅行短视频的剪辑合作**：对方在做一个“格拉斯哥便宜好玩的地方”系列，需要有人把手机素材剪成节奏明快、带字幕的短片——正好用上你的剪辑和讲故事能力。\n- **Edinburgh 学生周末指南的摄影搭档**：对方要做一份面向学生的爱丁堡周末实用指南，想找喜欢记录本地地点、能撑起视觉故事的人。\n\n想先看哪一个的详细情况，还是直接帮你起草一份合作申请？"
+    },
+    {
+      "id": "c24",
+      "type": "mixed",
+      "text": "想做 vlog 分享我在英国读书的 study routine 和学习方法",
+      "expected": [
+        "Study Skills for International Students",
+        "Student Productivity Content"
+      ],
+      "tfidf_raw": [
+        "Study Skills for International Students"
+      ],
+      "llm_keywords": [
+        "Student Productivity Content",
+        "Local Culture Short Videos",
+        "Cinematic Travel Vlogging"
+      ],
+      "agent_final": [
+        "Student Productivity Content",
+        "Local Culture Short Videos"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details",
+        "get_details",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 7.04,
+      "input_tokens": 7887,
+      "output_tokens": 533,
+      "answer": "两个方向比较适合你：\n\n**1. Student Productivity Content（学生效率内容）**\n就是拍真实的留学学习日常——两小时学习流程、每周复盘、赶作业减压方法这类，正好是你在英国读书的亲身经验，用手机拍短竖屏视频就能做。\n\n**2. Local Culture Short Videos（本地文化短视频）**\n把英国校园和城市生活当作背景，用讲故事的方式拍短内容，能让你的 study vlog 更有画面感和辨识度。\n\n合作方面有两个可以看看：\n\n- **lina_learns** 在找人为她的入门学习系列做缩略图设计，和你的学习内容主题很接近，适合互相导流。\n- **maya_travels** 在找剪辑师，把手机素材剪成带字幕、节奏明快的短片——如果你剪辑不错，可以借这个机会练手并认识同在英国创作的伙伴。\n\n你想先深入哪个方向，还是先给某个合作写一份申请草稿？"
+    },
+    {
+      "id": "c25",
+      "type": "mixed",
+      "text": "我会画画也会剪视频，想做科普，把复杂的东西画出来讲清楚",
+      "expected": [
+        "Everyday Educational Explainers"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Budget Weekend Travel Guides",
+        "Everyday Educational Explainers",
+        "Local Culture Short Videos"
+      ],
+      "agent_final": [
+        "Everyday Educational Explainers"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 4.87,
+      "input_tokens": 5191,
+      "output_tokens": 430,
+      "answer": "你的方向其实很清晰：用画把复杂的东西讲明白，这正好是「日常科普解说」这一类内容的核心。\n\n**推荐方向：日常科普解说**\n用图解、例子和旁白把复杂概念讲清楚，很适合你既会画又会剪的组合，而且不一定要露脸，做短视频或长视频都行。\n\n**推荐合作：给科普视频做缩略图设计（lina_learns）**\n她在做一套入门学习系列，需要有人做简洁、手机上也能看清的缩略图，你的绘画和视觉能力正好用得上。\n\n另外还有一个旅行短视频剪辑的合作，但跟你想做的科普关系不大，我就不硬推了。\n\n要不要我先帮你把给 lina_learns 的合作申请写个草稿？"
+    },
+    {
+      "id": "c26",
+      "type": "mixed",
+      "text": "喜欢旅行也喜欢摄影器材，想测一测各种拍照设备在旅途中到底好不好用",
+      "expected": [
+        "Affordable Gadget Reviews",
+        "Cinematic Travel Vlogging"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Local Culture Short Videos",
+        "Cinematic Travel Vlogging",
+        "Budget Weekend Travel Guides"
+      ],
+      "agent_final": [
+        "Cinematic Travel Vlogging",
+        "Local Culture Short Videos"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details",
+        "get_details",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 7.91,
+      "input_tokens": 7843,
+      "output_tokens": 537,
+      "answer": "给你两个方向，都很贴合“旅行 + 器材实测”：\n\n**1. 电影感旅行 Vlog**\n用画面和声音讲旅途故事，正好能把你的摄影功底和剪辑能力用上，也方便在片子里自然带出“这台设备在旅途中表现如何”的实测感。\n\n**2. 本地文化短视频**\n以目的地的人文细节为主线，器材测试可以融进真实拍摄场景里，比纯参数评测更有看头。\n\n合作方面有两个机会：\n\n- **爱丁堡周末指南的摄影搭档**（maya_travels）：她想要一个爱拍本地场景、能做出完整视觉故事的摄影师，跟你的旅行摄影很对味。\n- **格拉斯哥旅行短片的剪辑合作**（同一位作者）：把手机素材剪成节奏明快、带字幕的短片，适合你顺手展示不同设备的实拍效果。\n\n要不要我先帮你起草一份给爱丁堡摄影合作的申请？"
+    },
+    {
+      "id": "c27",
+      "type": "mixed",
+      "text": "做过几年新闻编辑，会写稿会采访，想做内容但还没想好方向，比较喜欢讲人的故事",
+      "expected": [
+        "Creative Community Interview Podcast"
+      ],
+      "tfidf_raw": [],
+      "llm_keywords": [
+        "Creative Community Interview Podcast",
+        "Local Culture Short Videos",
+        "Budget Weekend Travel Guides"
+      ],
+      "agent_final": [
+        "Creative Community Interview Podcast",
+        "Local Culture Short Videos"
+      ],
+      "asked_question": false,
+      "tools_called": [
+        "recommend_strategies",
+        "search_collaborations",
+        "get_details",
+        "get_details"
+      ],
+      "fallback": "",
+      "latency_s": 6.13,
+      "input_tokens": 5240,
+      "output_tokens": 416,
+      "answer": "以你的新闻编辑背景和\"讲人的故事\"这个偏好，我看到两个比较合适的方向：\n\n**1. 创作者访谈播客** — 你本来就擅长采访和写稿，这个方向几乎是把你的老本行换个平台做，聊本地创作者的经历和困境，正好发挥你挖故事的能力。\n\n**2. 本地文化短视频** — 如果你想先轻量试水，用手机拍身边的小店、市场、街坊故事，配上你的旁白和字幕，投入不大但很吃\"会讲故事\"这件事。\n\n合作方面，目前开放的请求里没有特别贴你背景的（多是旅行剪辑和器材测评），硬推给你反而浪费你时间。要不要我先帮你把其中一个方向细化成具体的选题和形式，再去找合适的合作对象？"
+    },
+    {
+      "id": "c28",
+      "type": "vague",
+      "text": "推荐个方向",
+      "expected": [],
+      "tfidf_raw": [],
+      "llm_keywords": [],
+      "agent_final": [],
+      "asked_question": true,
+      "tools_called": [],
+      "fallback": "",
+      "latency_s": 1.41,
+      "input_tokens": 1090,
+      "output_tokens": 37,
+      "answer": "你好！为了给你推荐合适的方向，我想先了解一点：你平时喜欢做什么内容、擅长什么（比如拍摄、剪辑、讲故事），以及有没有时间或设备上的限制？"
+    },
+    {
+      "id": "c29",
+      "type": "vague",
+      "text": "我想做自媒体赚钱",
+      "expected": [],
+      "tfidf_raw": [],
+      "llm_keywords": [],
+      "agent_final": [],
+      "asked_question": true,
+      "tools_called": [],
+      "fallback": "",
+      "latency_s": 1.96,
+      "input_tokens": 1091,
+      "output_tokens": 72,
+      "answer": "你好！想帮你找到合适的方向，先问一个关键问题：\n\n你现在主要想做什么内容、有什么擅长的技能？（比如：美食探店、旅行vlog、知识科普、剪辑、写作……）另外，你更想靠什么方式赚钱——广告、带货、还是接单服务？\n\n告诉我这些，我就能帮你找方向和合作机会。"
+    },
+    {
+      "id": "c30",
+      "type": "vague",
+      "text": "我什么都不会，能做博主吗？",
+      "expected": [],
+      "tfidf_raw": [],
+      "llm_keywords": [],
+      "agent_final": [],
+      "asked_question": true,
+      "tools_called": [],
+      "fallback": "",
+      "latency_s": 1.49,
+      "input_tokens": 1095,
+      "output_tokens": 49,
+      "answer": "当然可以！很多博主都是从零开始的。不过我想先了解你一点，才能给你靠谱的建议：\n\n你平时最喜欢看哪类内容，或者对什么话题最有兴趣？（比如美食、旅行、游戏、生活日常、学习……）"
+    }
+  ],
+  "summary": {
+    "cases": 30,
+    "scored_cases": 26,
+    "vague_cases": 4,
+    "tfidf_raw_hit@1": 0.038,
+    "tfidf_raw_hit@2": 0.038,
+    "llm_keywords_hit@1": 0.654,
+    "llm_keywords_hit@2": 0.846,
+    "agent_final_hit@1": 0.885,
+    "agent_final_hit@2": 0.885,
+    "vague_asked_question_rate": 1.0,
+    "avg_latency_s": 5.04,
+    "avg_input_tokens": 4800,
+    "avg_output_tokens": 379,
+    "fallbacks": 0
+  }
+}

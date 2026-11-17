@@ -65,6 +65,8 @@ class AgentResult:
     steps: list[Step] = field(default_factory=list)
     fallback_used: bool = False
     fallback_reason: str = ""
+    input_tokens: int = 0   # summed over every model call in this run
+    output_tokens: int = 0
 
 
 def _text_of(message: AIMessage) -> str:
@@ -113,6 +115,7 @@ class CreatorAgent:
             SystemMessage(SYSTEM_PROMPT), *self.history, HumanMessage(content),
         ]
         steps: list[Step] = []
+        tokens = {"input_tokens": 0, "output_tokens": 0}
 
         for _ in range(self.max_steps):
             try:
@@ -121,11 +124,14 @@ class CreatorAgent:
                 return self._fallback(user_input, steps, f"model call failed: {exc}")
 
             messages.append(reply)
+            usage = getattr(reply, "usage_metadata", None) or {}
+            for key in tokens:
+                tokens[key] += usage.get(key, 0)
 
             if not reply.tool_calls:  # plain answer -> done
                 answer = _text_of(reply)
                 self.history = messages[1:]  # keep the turn for follow-up questions
-                return AgentResult(answer=answer, steps=steps)
+                return AgentResult(answer=answer, steps=steps, **tokens)
 
             for call in reply.tool_calls:
                 output = self._run_tool(call["name"], call["args"])
