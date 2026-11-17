@@ -1,0 +1,349 @@
+{
+  "skills": [
+    "Video Editing",
+    "Photography",
+    "Storytelling",
+    "Scriptwriting",
+    "Graphic Design",
+    "Social Media Marketing",
+    "Research",
+    "Teaching"
+  ],
+  "niches": [
+    {
+      "name": "Travel Content",
+      "description": "Content about travel experiences, destinations and local cultures.",
+      "keywords": "travel, tourism, culture, photography, vlog, storytelling"
+    },
+    {
+      "name": "Technology Content",
+      "description": "Content about technology, software, gadgets and digital products.",
+      "keywords": "technology, software, coding, gadgets, reviews, tutorials"
+    },
+    {
+      "name": "Educational Content",
+      "description": "Content that teaches knowledge, explains ideas or develops practical skills.",
+      "keywords": "education, teaching, tutorials, learning, explanation"
+    },
+    {
+      "name": "Lifestyle Content",
+      "description": "Content about daily routines, wellbeing and personal development.",
+      "keywords": "lifestyle, wellbeing, daily life, routines, productivity"
+    },
+    {
+      "name": "Beauty Content",
+      "description": "Content about beauty, skincare, makeup and personal style.",
+      "keywords": "beauty, skincare, makeup, fashion, reviews, tutorials"
+    }
+  ],
+  "strategies": [
+    {
+      "name": "Local Culture Short Videos",
+      "niche_name": "Travel Content",
+      "description": "Short visual stories that introduce local food, places, traditions and communities.",
+      "suitable_interests": "travel local culture food photography community history",
+      "suitable_skills": "video editing photography storytelling research",
+      "suitable_goals": "grow an audience build a personal brand tell useful stories",
+      "suitable_constraints": "limited time smartphone laptop no face voice-over subtitles short-form young audience",
+      "recommended_platforms": "TikTok, Instagram Reels, YouTube Shorts",
+      "content_style": "30–60 second visual stories using location footage, voice-over and subtitles.",
+      "example_ideas": "Three hidden food spots in your city\nThe story behind a local market\nA neighbourhood explained in 60 seconds",
+      "niche": "Travel Content"
+    },
+    {
+      "name": "Budget Weekend Travel Guides",
+      "niche_name": "Travel Content",
+      "description": "Practical guides that help viewers plan affordable short trips.",
+      "suitable_interests": "travel tourism budget trips destinations photography",
+      "suitable_skills": "planning research photography video editing communication",
+      "suitable_goals": "help an audience grow an audience create useful content",
+      "suitable_constraints": "weekend limited time smartphone small budget short-form long-form students travellers",
+      "recommended_platforms": "YouTube, TikTok, YouTube Shorts",
+      "content_style": "Practical itineraries combining prices, maps, short clips and clear recommendations.",
+      "example_ideas": "48 hours in Edinburgh under £100\nFive free places to visit in Glasgow\nA weekend trip filmed entirely on a phone",
+      "niche": "Travel Content"
+    },
+    {
+      "name": "Cinematic Travel Vlogging",
+      "niche_name": "Travel Content",
+      "description": "Atmospheric travel films built around visual storytelling and personal experiences.",
+      "suitable_interests": "travel filmmaking photography destinations culture",
+      "suitable_skills": "video editing photography cinematography storytelling",
+      "suitable_goals": "build a personal brand creative expression grow an audience",
+      "suitable_constraints": "camera smartphone laptop editing time sometimes on camera long-form",
+      "recommended_platforms": "YouTube, Instagram, YouTube Shorts",
+      "content_style": "Cinematic footage, music, natural sound and reflective voice-over.",
+      "example_ideas": "A cinematic walk through Glasgow\nHow I filmed my first travel vlog\nOne day in Edinburgh without dialogue",
+      "niche": "Travel Content"
+    },
+    {
+      "name": "Beginner Video Editing Tutorials",
+      "niche_name": "Educational Content",
+      "description": "Accessible tutorials that teach new creators practical editing techniques.",
+      "suitable_interests": "content creation video editing technology education",
+      "suitable_skills": "video editing teaching communication screen recording",
+      "suitable_goals": "teach practical skills build authority help beginners",
+      "suitable_constraints": "laptop screen recording no face voice-over short-form long-form beginner creators",
+      "recommended_platforms": "YouTube, TikTok, YouTube Shorts",
+      "content_style": "Step-by-step screen recordings with before-and-after examples and concise explanations.",
+      "example_ideas": "Three cuts that make videos feel faster\nHow to add subtitles to a short video\nFix flat-looking footage in five minutes",
+      "niche": "Educational Content"
+    },
+    {
+      "name": "Affordable Gadget Reviews",
+      "niche_name": "Technology Content",
+      "description": "Honest reviews of affordable technology for students and beginner creators.",
+      "suitable_interests": "technology gadgets software content creation reviews",
+      "suitable_skills": "research product testing presentation video editing",
+      "suitable_goals": "help buyers build authority affiliate income audience growth",
+      "suitable_constraints": "smartphone laptop desk setup sometimes on camera short-form long-form students beginner creators",
+      "recommended_platforms": "YouTube, TikTok, Instagram Reels",
+      "content_style": "Concise demonstrations, comparisons and honest pros-and-cons.",
+      "example_ideas": "Best budget microphone for student creators\nA one-week review of a low-cost tripod\nThree free editing apps compared",
+      "niche": "Technology Content"
+    },
+    {
+      "name": "Study Skills for International Students",
+      "niche_name": "Educational Content",
+      "description": "Practical study and university guidance for international students.",
+      "suitable_interests": "education university study productivity student life",
+      "suitable_skills": "teaching writing research organisation communication",
+      "suitable_goals": "help students teach practical skills build a community",
+      "suitable_constraints": "smartphone laptop limited time no face voice-over short-form long-form international students",
+      "recommended_platforms": "YouTube, TikTok, Instagram Reels",
+      "content_style": "Friendly explainers, checklists and screen-recorded walkthroughs.",
+      "example_ideas": "How to plan your first university assignment\nFive mistakes international students can avoid\nMy weekly study-planning system",
+      "niche": "Educational Content"
+    },
+    {
+      "name": "Everyday Educational Explainers",
+      "niche_name": "Educational Content",
+      "description": "Clear explanations that make complex everyday topics easier to understand.",
+      "suitable_interests": "education science history technology learning",
+      "suitable_skills": "research writing teaching illustration storytelling",
+      "suitable_goals": "teach build authority make knowledge accessible",
+      "suitable_constraints": "laptop no face voice-over animation short-form long-form curious audience",
+      "recommended_platforms": "YouTube, TikTok, Instagram Reels",
+      "content_style": "Scripted explainers using diagrams, examples, captions and voice-over.",
+      "example_ideas": "Why recommendation systems show similar videos\nA difficult idea explained with one diagram\nThe hidden technology in an everyday object",
+      "niche": "Educational Content"
+    },
+    {
+      "name": "Student Productivity Content",
+      "niche_name": "Lifestyle Content",
+      "description": "Realistic routines and organisation systems for busy students.",
+      "suitable_interests": "productivity student life wellbeing organisation lifestyle",
+      "suitable_skills": "planning writing photography video editing",
+      "suitable_goals": "help students build a relatable personal brand community",
+      "suitable_constraints": "smartphone limited time sometimes on camera short-form students",
+      "recommended_platforms": "TikTok, Instagram Reels, YouTube Shorts",
+      "content_style": "Relatable short videos combining routines, captions and practical tips.",
+      "example_ideas": "My realistic two-hour study routine\nA weekly reset for busy students\nThree ways I reduce assignment stress",
+      "niche": "Lifestyle Content"
+    },
+    {
+      "name": "Affordable Skincare Reviews",
+      "niche_name": "Beauty Content",
+      "description": "Accessible skincare reviews focused on evidence, value and realistic routines.",
+      "suitable_interests": "beauty skincare wellbeing products reviews",
+      "suitable_skills": "research product testing photography presentation",
+      "suitable_goals": "help buyers build trust audience growth affiliate income",
+      "suitable_constraints": "smartphone small budget on camera hands-only short-form young audience",
+      "recommended_platforms": "TikTok, Instagram Reels, YouTube",
+      "content_style": "Close-up product demonstrations, routine diaries and evidence-led comparisons.",
+      "example_ideas": "A seven-day review of an affordable cleanser\nThree skincare products under £15\nWhat this ingredient actually does",
+      "niche": "Beauty Content"
+    },
+    {
+      "name": "Creative Community Interview Podcast",
+      "niche_name": "Lifestyle Content",
+      "description": "Conversations with local creators about skills, careers and creative challenges.",
+      "suitable_interests": "creativity careers community storytelling people",
+      "suitable_skills": "interviewing speaking listening networking audio editing",
+      "suitable_goals": "build a community network personal brand share experiences",
+      "suitable_constraints": "microphone laptop guests on camera long-form weekly audience",
+      "recommended_platforms": "Spotify, YouTube, Apple Podcasts",
+      "content_style": "Conversational long-form interviews with short highlight clips.",
+      "example_ideas": "How a local creator found their niche\nWhat beginner editors wish they knew\nBuilding a creative career while studying",
+      "niche": "Lifestyle Content"
+    },
+    {
+      "name": "Behind-the-Scenes Design Content",
+      "niche_name": "Technology Content",
+      "description": "Process-focused content showing how visual and digital work is created.",
+      "suitable_interests": "design technology creativity art digital products",
+      "suitable_skills": "graphic design illustration screen recording video editing",
+      "suitable_goals": "showcase a portfolio build authority attract clients",
+      "suitable_constraints": "laptop no face screen recording time-lapse short-form creative audience",
+      "recommended_platforms": "Instagram Reels, TikTok, YouTube Shorts, LinkedIn",
+      "content_style": "Time-lapses, screen recordings and concise process explanations.",
+      "example_ideas": "Turning a rough sketch into a finished poster\nMy five-minute colour-selection process\nBefore and after: redesigning a student society logo",
+      "niche": "Technology Content"
+    },
+    {
+      "name": "Social Media Marketing Tips",
+      "niche_name": "Technology Content",
+      "description": "Practical marketing experiments and lessons for small creators and businesses.",
+      "suitable_interests": "social media marketing business content creation analytics",
+      "suitable_skills": "marketing writing research data analysis presentation",
+      "suitable_goals": "teach build professional authority attract clients",
+      "suitable_constraints": "laptop smartphone no face screen recording short-form small businesses creators",
+      "recommended_platforms": "LinkedIn, TikTok, Instagram, YouTube",
+      "content_style": "Evidence-led tips, screen recordings, mini case studies and experiments.",
+      "example_ideas": "What I learned from posting every day for a week\nThree ways to improve a video hook\nA small creator analytics dashboard explained",
+      "niche": "Technology Content"
+    }
+  ],
+  "creators": [
+    {
+      "username": "maya_travels",
+      "first_name": "Maya",
+      "skills": [
+        "Video Editing",
+        "Photography",
+        "Storytelling"
+      ],
+      "bio": "A beginner travel creator sharing local culture and affordable city experiences.",
+      "interests": "travel, local culture, photography",
+      "goals": "Create helpful short travel videos and build a community of young travellers.",
+      "preferred_platform": "TikTok, Instagram Reels",
+      "target_audience": "Students and young people interested in affordable local travel.",
+      "available_time": "6 hours per week",
+      "equipment": "Smartphone and laptop",
+      "on_camera_preference": "NO_FACE",
+      "preferred_content_length": "SHORT"
+    },
+    {
+      "username": "alex_tech",
+      "first_name": "Alex",
+      "skills": [
+        "Research",
+        "Video Editing",
+        "Storytelling"
+      ],
+      "bio": "A technology creator reviewing affordable tools for students and beginner creators.",
+      "interests": "technology, gadgets, software",
+      "goals": "Help students choose affordable technology and build trust through honest reviews.",
+      "preferred_platform": "YouTube, TikTok",
+      "target_audience": "Students and beginner creators looking for affordable technology.",
+      "available_time": "8 hours per week",
+      "equipment": "Laptop, smartphone and microphone",
+      "on_camera_preference": "SOMETIMES",
+      "preferred_content_length": "BOTH"
+    },
+    {
+      "username": "lina_learns",
+      "first_name": "Lina",
+      "skills": [
+        "Teaching",
+        "Scriptwriting",
+        "Research"
+      ],
+      "bio": "An educational creator helping international students study more effectively.",
+      "interests": "education, university, productivity",
+      "goals": "Create practical learning resources and help international students feel more confident.",
+      "preferred_platform": "YouTube, Instagram",
+      "target_audience": "International university students and independent learners.",
+      "available_time": "5 hours per week",
+      "equipment": "Laptop and basic microphone",
+      "on_camera_preference": "NO_FACE",
+      "preferred_content_length": "BOTH"
+    },
+    {
+      "username": "noah_designs",
+      "first_name": "Noah",
+      "skills": [
+        "Graphic Design",
+        "Social Media Marketing",
+        "Photography"
+      ],
+      "bio": "A visual creator exploring branding, design and social media communication.",
+      "interests": "design, branding, social media",
+      "goals": "Share practical design advice and collaborate with other beginner creators.",
+      "preferred_platform": "Instagram, TikTok",
+      "target_audience": "Small creators and students interested in visual communication.",
+      "available_time": "7 hours per week",
+      "equipment": "Laptop, design software and smartphone",
+      "on_camera_preference": "COMFORTABLE",
+      "preferred_content_length": "SHORT"
+    }
+  ],
+  "collaborations": [
+    {
+      "author": "maya_travels",
+      "niche": "Travel Content",
+      "title": "Looking for a Video Editor for Glasgow Travel Shorts",
+      "description": "I am producing a short series about affordable places to visit in Glasgow. I am looking for an editor who can turn smartphone footage into clear, energetic videos with subtitles and a consistent visual style.",
+      "required_skills": [
+        "Video Editing",
+        "Storytelling"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "author": "maya_travels",
+      "niche": "Travel Content",
+      "title": "Photography Partner for an Edinburgh Weekend Guide",
+      "description": "I am planning a practical weekend guide to Edinburgh for students. I would like to work with a photographer who enjoys documenting local places and can help create a strong visual story for social media.",
+      "required_skills": [
+        "Photography",
+        "Storytelling"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "author": "alex_tech",
+      "niche": "Technology Content",
+      "title": "Research Partner for Affordable Gadget Reviews",
+      "description": "I am comparing affordable microphones, tripods and editing tools for student creators. I need a research partner who can compare specifications, prices and real user needs before we record the reviews.",
+      "required_skills": [
+        "Research",
+        "Storytelling"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "author": "alex_tech",
+      "niche": "Technology Content",
+      "title": "Scriptwriter for Beginner Technology Tutorials",
+      "description": "This project created a short series explaining useful technology to beginners. The collaboration has now been completed, but the request remains visible as an example of a closed opportunity.",
+      "required_skills": [
+        "Scriptwriting",
+        "Video Editing"
+      ],
+      "status": "CLOSED"
+    },
+    {
+      "author": "lina_learns",
+      "niche": "Educational Content",
+      "title": "Voice-over Creator for Study Skills Videos",
+      "description": "I am creating short study-skills videos for international students using diagrams and screen recordings. I am looking for someone who can help refine the scripts and deliver a friendly, clear voice-over style.",
+      "required_skills": [
+        "Scriptwriting",
+        "Storytelling"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "author": "lina_learns",
+      "niche": "Educational Content",
+      "title": "Designer for Educational Video Thumbnails",
+      "description": "I need a graphic designer to develop accessible and consistent thumbnails for a beginner study series. The designs should remain readable on mobile screens and avoid overwhelming viewers with too much text.",
+      "required_skills": [
+        "Graphic Design"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "author": "noah_designs",
+      "niche": "Lifestyle Content",
+      "title": "Social Media Partner for a Creator Branding Campaign",
+      "description": "I worked with another creator on a short branding campaign for student-led projects. The campaign is now finished, so this request demonstrates how completed collaborations are marked as closed.",
+      "required_skills": [
+        "Social Media Marketing",
+        "Graphic Design"
+      ],
+      "status": "CLOSED"
+    }
+  ]
+}

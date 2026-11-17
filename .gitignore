@@ -1,0 +1,9 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+outputs/
+.DS_Store
+
+# Personal notes (interview prep), kept local
+进度笔记.md

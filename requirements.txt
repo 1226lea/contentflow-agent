@@ -1,0 +1,6 @@
+langchain-anthropic==1.7.10
+langchain-core==1.8.0
+langchain-openai==1.8.0
+pytest==9.2.0
+python-dotenv==1.2.4
+scikit-learn==1.9.1
